@@ -40,6 +40,7 @@ def main():
     dot7 = Circle(Point(5.5, 3), 0.2)   # sets middle right dot
     dot7.setFill('white')
 
+
     # setting dots for second dice
     dot8 = Circle(Point(10.5, 3.5), 0.2)  # sets upper left dot
     dot8.setFill('white')
@@ -129,7 +130,9 @@ def main():
         dot13.draw(win)
         dot14.draw(win)
 
- # loop to check whether the dots on both die are the same amount
+    starting.undraw()   # remove starting text to make way for future text
+
+    # loop to check whether the dots on both die are the same amount
     # -- if they are, the user won.
     # -- if not, the user lost.
     if (rand1 == 1 and rand == 1) or (rand1 == 2 and rand == 2) \
@@ -140,6 +143,12 @@ def main():
     else:
         msg = Text(Point(8, 1), "YOU LOST!")
         msg.draw(win)
+
+    win.getMouse()
+    msg.undraw()    # remove winning/losing message to make way for future text
+
+    ending = Text(Point(8, 1), "Click again to close game.")    # text output for end
+    ending.draw(win)
 
     win.getMouse()
     win.close()     # close window
