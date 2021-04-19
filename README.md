@@ -2,7 +2,7 @@
 Adv. Programming Project
 
 **Game Description:**
-This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces.
+This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces. Uses the graphics.py library.
 
 1. **Set the window and the coordinates for the window. The header of the window will read "Dice Rolling Game" and the window will be 300 x 100.**
 2. **Draw the squares that serve as the body for the dice using Rectangle.**
