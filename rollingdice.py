@@ -35,23 +35,30 @@ def main():
     centerfirst = Point(5, 3)  # center of first dice
     dot5 = Circle(centerfirst, 0.2)  # sets center dot
     dot5.setFill('white')
-
+    dot6 = Circle(Point(4.5, 3), 0.2)   # sets middle left dot
+    dot6.setFill('white')
+    dot7 = Circle(Point(5.5, 3), 0.2)   # sets middle right dot
+    dot7.setFill('white')
 
     # setting dots for second dice
-    dot6 = Circle(Point(10.5, 3.5), 0.2)  # sets upper left dot
-    dot6.setFill('white')
-    dot7 = Circle(Point(10.5, 2.5), 0.2)  # sets lower left dot
-    dot7.setFill('white')
-    dot8 = Circle(Point(11.5, 3.5), 0.2)  # sets upper right dot
+    dot8 = Circle(Point(10.5, 3.5), 0.2)  # sets upper left dot
     dot8.setFill('white')
-    dot9 = Circle(Point(11.5, 2.5), 0.2)  # sets lower right dot
+    dot9 = Circle(Point(10.5, 2.5), 0.2)  # sets lower left dot
     dot9.setFill('white')
-    centersecond = Point(11, 3)  # center of second dice
-    dot10 = Circle(centersecond, 0.2)  # sets center dot
+    dot10 = Circle(Point(11.5, 3.5), 0.2)  # sets upper right dot
     dot10.setFill('white')
+    dot11 = Circle(Point(11.5, 2.5), 0.2)  # sets lower right dot
+    dot11.setFill('white')
+    centersecond = Point(11, 3)  # center of second dice
+    dot12 = Circle(centersecond, 0.2)  # sets center dot
+    dot12.setFill('white')
+    dot13 = Circle(Point(10.5, 3), 0.2)  # sets middle left dot
+    dot13.setFill('white')
+    dot14 = Circle(Point(11.5, 3), 0.2)  # sets middle right dot
+    dot14.setFill('white')
 
     win.getMouse()
-    rand = randint(1, 5)    # using randint to randomize the dots on the first dice
+    rand = randint(1, 6)    # using randint to randomize the dots on the first dice
     if rand == 1:   # first case: dice with 1 dot
         win.getMouse()
         dot5.draw(win)
@@ -77,34 +84,50 @@ def main():
         dot3.draw(win)
         dot4.draw(win)
         dot5.draw(win)
+    elif rand == 6:     # sixth case: dice with 6 dots
+        win.getMouse()
+        dot1.draw(win)
+        dot2.draw(win)
+        dot3.draw(win)
+        dot4.draw(win)
+        dot6.draw(win)
+        dot7.draw(win)
 
     win.getMouse()
-    rand1 = randint(1, 5)   # using randint to randomize the dots on the second dice
+    rand1 = randint(1, 6)   # using randint to randomize the dots on the second dice
     if rand1 == 1:      # first case: dice with 1 dot
         win.getMouse()
-        dot10.draw(win)
+        dot12.draw(win)
     elif rand1 == 2:    # second case: dice with 2 dots
         win.getMouse()
-        dot6.draw(win)
-        dot9.draw(win)
+        dot8.draw(win)
+        dot11.draw(win)
     elif rand1 == 3:    # third case: dice with 3 dots
         win.getMouse()
-        dot7.draw(win)
-        dot8.draw(win)
+        dot9.draw(win)
         dot10.draw(win)
+        dot12.draw(win)
     elif rand1 == 4:    # fourth case: dice with 4 dots
         win.getMouse()
-        dot6.draw(win)
-        dot7.draw(win)
-        dot8.draw(win)
-        dot9.draw(win)
-    elif rand1 == 5:    # fifth case: dice with 5 dots
-        win.getMouse()
-        dot6.draw(win)
-        dot7.draw(win)
         dot8.draw(win)
         dot9.draw(win)
         dot10.draw(win)
+        dot11.draw(win)
+    elif rand1 == 5:    # fifth case: dice with 5 dots
+        win.getMouse()
+        dot8.draw(win)
+        dot9.draw(win)
+        dot10.draw(win)
+        dot11.draw(win)
+        dot12.draw(win)
+    elif rand1 == 6:    # sixth case: dice with 6 dots
+        win.getMouse()
+        dot8.draw(win)
+        dot9.draw(win)
+        dot10.draw(win)
+        dot11.draw(win)
+        dot13.draw(win)
+        dot14.draw(win)
 
     win.getMouse()
     win.close()     # close window
