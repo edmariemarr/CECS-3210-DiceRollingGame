@@ -6,6 +6,11 @@ from random import *
 # -- You win if both dice 1 and dice 2 have the same faces.
 # -- You lose if both dice 1 and dice 2 have different faces.
 
+# Resources:
+# dice exercise on HW 4
+# graphics.pdf
+# https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui
+
 def main():
     win = GraphWin('Dice Rolling Game', 300, 100)    # set window
     win.setCoords(0, 0, 16, 5)
@@ -58,6 +63,7 @@ def main():
     dot14 = Circle(Point(11.5, 3), 0.2)  # sets middle right dot
     dot14.setFill('white')
 
+    win.autoflush = False
     win.getMouse()
     rand = randint(1, 6)    # using randint to randomize the dots on the first dice
     if rand == 1:   # first case: dice with 1 dot
@@ -144,7 +150,11 @@ def main():
         msg = Text(Point(8, 1), "YOU LOST!")
         msg.draw(win)
 
-    win.getMouse()
+    update()
+    time.sleep(3)   # wait a few seconds before next text
+
+    win.autoflush = True
+
     msg.undraw()    # remove winning/losing message to make way for future text
 
     ending = Text(Point(8, 1), "Click again to close game.")    # text output for end
