@@ -28,9 +28,10 @@ This simple rolling dice game is known as a game of probability. The user wins i
     - The user loses if the values do not match.
     - A text saying "YOU WON!" or "YOU LOST!" appears under the dice.
     - Ex. If random loop of first die and random loop of second die are both 6 then "YOU WIN!"
-8. **Remove winning/losing text.**
-9. **Display final text saying that, to close the game, you must click the window again.**
-10. **Close the game with win.close()**
+8. **Update() and time.sleep(_) for 3 seconds before final text.**
+9. **Remove winning/losing text.**
+10. **Display final text saying that, to close the game, you must click the window again.**
+11. **Close the game with win.close()**
 
 **References**
 - HW 4 dice exercise (my own)
@@ -39,8 +40,7 @@ This simple rolling dice game is known as a game of probability. The user wins i
 
 *Justification for using StackOverflow website:*
 I had thought of the idea of making a probability game using the dice exercise in HW 4
-because of someone's comment asking me "do the dice roll?" when I showed them my homework output, but I
-had trouble figuring out how to change the dice faces using getMouse().
+but I had trouble figuring out how to change the dice faces using getMouse().
 I had already tried using loops for this but nothing worked.
 Then, I found this website and saw the question poster had a similar project as me.
 I decided to use the random library and the if/else if statement similarly to the question poster,
