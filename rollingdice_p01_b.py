@@ -171,9 +171,7 @@ def results(win, rand1, rand):
     # loop to check whether the dots on both die are the same amount
     # -- if they are, the user won.
     # -- if not, the user lost.
-    if (rand1 == 1 and rand == 1) or (rand1 == 2 and rand == 2) \
-            or (rand1 == 3 and rand == 3) or (rand1 == 4 and rand == 4) \
-            or (rand1 == 5 and rand == 5) or (rand1 == 6 and rand == 6):
+    if (rand1 == rand):
         msg = Text(Point(8, 1), "YOU WON!")
         msg.draw(win)
     else:
