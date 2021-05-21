@@ -5,9 +5,9 @@ Adv. Programming Project
 This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces. Uses the graphics.py library.
 
 There are three versions of this game on this repo, with the same finalized product:
-- Original Version
-- Version using Functions
-- Version using Classes
+- Original Version (rollingdice.py)
+- Version using Functions (rollingdice_p01_b.py)
+- Version using Classes (rollingdice_p01_c.py)
 
 Steps:
 1. **Set the window and the coordinates for the window. The header of the window will read "Dice Rolling Game" and the window will be 300 x 100.**
