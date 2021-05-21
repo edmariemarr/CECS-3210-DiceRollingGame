@@ -9,6 +9,7 @@ There are three versions of this game on this repo, with the same finalized prod
 - Version using Functions
 - Version using Classes
 
+Steps:
 1. **Set the window and the coordinates for the window. The header of the window will read "Dice Rolling Game" and the window will be 300 x 100.**
 2. **Draw the squares that serve as the body for the dice using Rectangle.**
     - The first square is at the left of the window and will be colored black.
