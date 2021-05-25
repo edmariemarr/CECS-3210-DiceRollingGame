@@ -47,7 +47,6 @@ Steps:
 *Justification for using StackOverflow website:*
 I had thought of the idea of making a probability game using the dice exercise in HW 4
 but I had trouble figuring out how to change the dice faces using getMouse().
-I had already tried using loops for this but nothing worked.
 Then, I found this website and saw the question poster had a similar project as me.
 I decided to use the random library and the if/else if statement similarly to the question poster,
 but I accomodated the dots with my knowledge of the positioning. So, if you see our projects they are different.
