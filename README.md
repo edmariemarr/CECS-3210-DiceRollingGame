@@ -45,7 +45,7 @@ Steps:
 - https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui
 
 *Justification for using StackOverflow website:*
-I had thought of the idea of making a probability game using the dice exercise in HW 4
+I had thought of making a probability game using the dice exercise in HW 4
 but I had trouble figuring out how to change the dice faces using getMouse().
 Then, I found this website and saw the question poster had a similar project as me.
 I decided to use the random library and the if/else if statement similarly to the question poster,
