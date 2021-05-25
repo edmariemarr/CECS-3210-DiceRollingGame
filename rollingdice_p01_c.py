@@ -9,7 +9,7 @@ class Dice:
         self.y2 = y2
         self.color = color
         self.win = win
-        self.first = Rectangle(Point(self.x1, self.y1), Point(self.x2, self.y2))  # sets body for dice 1
+        self.first = Rectangle(Point(self.x1, self.y1), Point(self.x2, self.y2))  # sets body for dice
         self.first.setFill(self.color)
         self.first.draw(self.win)
 
