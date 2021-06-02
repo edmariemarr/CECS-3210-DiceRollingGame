@@ -30,16 +30,15 @@ Steps:
     - Fifth case contains the face of the dice with five dots.
     - Sixth case contains the face of the dice with six dots.
 6. **Remove the starting text regarding instructions.**
-7. **If/else loop where, if the random loop for the first die has the same value of the random loop for the second die, then the user wins.**
+7. **If/else statement where, if the random loop for the first die has the same value of the random loop for the second die, then the user wins.**
     - The user loses if the values do not match.
     - A text saying "YOU WON!" or "YOU LOST!" appears under the dice.
     - Ex. If random loop of first die and random loop of second die are both 6 then "YOU WIN!"
-8. **Update() and time.sleep(_) for 3 seconds before final text.**
 9. **Remove winning/losing text.**
 10. **Display final text saying that, to close the game, you must click the window again.**
 11. **Close the game with win.close()**
 
-**References**
+**References:**
 - HW 4 dice exercise (my own)
 - graphics pdf document
 - https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui
