@@ -1,4 +1,4 @@
-# Rodriguez_132704_project01_DiceRollingGame
+# CECS-3210-DiceRollingGame
 Adv. Programming Project
 
 **Game Description:**
