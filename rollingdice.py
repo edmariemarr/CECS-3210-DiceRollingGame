@@ -45,7 +45,6 @@ def main():
     dot7 = Circle(Point(5.5, 3), 0.2)   # sets middle right dot
     dot7.setFill('white')
 
-
     # setting dots for second dice
     dot8 = Circle(Point(10.5, 3.5), 0.2)  # sets upper left dot
     dot8.setFill('white')
