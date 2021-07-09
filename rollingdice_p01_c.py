@@ -1,6 +1,19 @@
 from graphics import *
 from random import *
 
+# DICE ROLL GAME
+# A probability game using two dice where,
+# -- You win if both dice 1 and dice 2 have the same faces.
+# -- You lose if both dice 1 and dice 2 have different faces.
+
+# Resources:
+# dice exercise on HW 4
+# graphics.pdf
+# https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui
+
+# Some changes:
+# - Uses classes instead of functions
+
 class Dice:
     def __init__(self, x1, y1, x2, y2, color, win):
         self.x1 = x1
