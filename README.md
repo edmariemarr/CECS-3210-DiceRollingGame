@@ -9,12 +9,15 @@ There are three versions of this game on this repo, with the same finalized prod
 - Version using Functions (rollingdice_p01_b.py)
 - Version using Classes (rollingdice_p01_c.py)
 
-</br>
-![DICE_start](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture1.PNG)
-![DICE_roll](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture2.PNG)
-![DICE_result](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture3.PNG)
-![DICE_close](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture4.PNG)
-</br>
+
+![DICE_start](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture1.PNG?raw=true?)
+
+![DICE_roll](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture2.PNG?raw=true)
+
+![DICE_result](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture3.PNG?raw=true)
+
+![DICE_close](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture4.PNG?raw=true)
+
 
 ### Steps:
 1. **Set the window and the coordinates for the window. The header of the window will read "Dice Rolling Game" and the window will be 300 x 100.**
