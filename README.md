@@ -9,6 +9,7 @@ There are three versions of this game on this repo, with the same finalized prod
 - Version using Functions (rollingdice_p01_b.py)
 - Version using Classes (rollingdice_p01_c.py)
 
+**Example of gameplay:**
 
 ![DICE_start](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture1.PNG?raw=true?)
 
