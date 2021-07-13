@@ -1,5 +1,5 @@
 # CECS-3210-DiceRollingGame
-Adv. Programming Project
+Advanced Programming Project
 
 This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces. Uses the graphics.py library.
 
@@ -19,6 +19,6 @@ There are three versions of this game on this repo, with the same finalized prod
 ![DICE_close](https://github.com/edmariemarr/Dice-Rolling-Game/blob/main/img/Capture4.PNG?raw=true)
 
 **References:**
-- HW 4 dice exercise (my own)
-- graphics pdf document
-- https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui
+- HW 4 dice exercise
+- [Zelle graphics.py PDF document](https://mcsp.wartburg.edu/zelle/python/graphics/graphics.pdf)
+- [Stack Overflow](https://stackoverflow.com/questions/15651521/dice-roll-in-python-gui)
