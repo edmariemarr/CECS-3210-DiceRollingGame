@@ -1,7 +1,7 @@
 # CECS-3210-DiceRollingGame
 Advanced Programming Project
 
-This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces. Uses the graphics.py library.
+This simple rolling dice game is known as a game of probability. The user wins if both dice have the same faces, and loses if they have different faces. Uses the graphics.py library as a requirement.
 
 There are three versions of this game on this repo, with the same finalized product:
 - Original Version (rollingdice.py)
